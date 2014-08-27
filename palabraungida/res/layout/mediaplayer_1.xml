@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+ <LinearLayout    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1">  
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         style="@android:style/Widget.ProgressBar.Large"
+         android:layout_marginRight="25dp" 
+         android:visibility="gone"/>  
+  <Button
+        android:id="@+id/butstream"
+          android:layout_width="200dp"
+        android:layout_height="50dp"
+       android:layout_marginTop="140dp"
+        android:layout_marginLeft="80dp"
+        
+       android:background="@drawable/botton1"
+          
+        
+          />
+   <Button
+        android:id="@+id/butstop"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="80dp"
+         android:background="@drawable/botton2" 
+        android:visibility="gone"
+           
+         />
+   <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="#07000000"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/inicio"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" 
+          android:layout_weight="1"
+        />
+ </LinearLayout> 
+  
+ <LinearLayout    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    android:background="#000000">
+     <Button android:id="@+id/streamvideo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+           android:layout_weight="1"
+        android:background="@drawable/video1"
+    />
+     <Button android:id="@+id/phonecall"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+           android:layout_weight="1"
+        android:background="@drawable/phone1" />
+ <Button android:id="@+id/emailto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+           android:layout_weight="1"
+        android:background="@drawable/email1"/>  
+    <Button android:id="@+id/worldw"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+           android:layout_weight="1"
+        android:background="@drawable/andromens"/>  
+   
+   </LinearLayout  >
+</LinearLayout  >

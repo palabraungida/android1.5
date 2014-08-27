@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:screenOrientation="nosensor">
+
+    <SurfaceView
+        android:id="@+id/surface"
+        android:layout_width="0px"
+        android:layout_height="50px" />
+
+    <Button
+        android:id="@+id/butstream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+         android:background="@drawable/botton1"
+          />
+
+    <Button
+        android:id="@+id/butstop"
+        android:layout_width="200px"
+        android:layout_height="50px"
+        android:layout_margin="80px"
+        android:background="@drawable/botton2" 
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#07000000"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/inicio"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    
+
+</RelativeLayout>

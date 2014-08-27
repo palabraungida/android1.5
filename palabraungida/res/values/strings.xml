@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PalabraungidaActivity!</string>
+    <string name="app_name">Palabraungida</string>
+    <string name="start_audio">start audio</string>
+    <string name="stream_video">Play Streaming Video</string>
+    <string name="end_audio">stop audio</string>
+    <string name="inicio">Click en el boton de Play para comenzar la transmision</string>
+    <string name="phone_call">llamanos a la cabina</string>
+    <string name="email">lenvianos email</string>
+     
+  
+</resources>

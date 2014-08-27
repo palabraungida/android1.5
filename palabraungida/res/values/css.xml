@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="css">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:windowBackground">@color/custom_theme_color</item>
+        <item name="android:background">@drawable/backcell</item>
+        <item name="android:typeface">monospace</item>
+        
+</style>
+<style name="layer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:windowBackground">@color/custom_theme_color</item>
+         <item name="android:typeface">monospace</item>
+        
+</style>
+<style name="lweb">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        
+</style>
+<color name="custom_theme_color">#b0b0ff</color>
+</resources>
+
+ 
